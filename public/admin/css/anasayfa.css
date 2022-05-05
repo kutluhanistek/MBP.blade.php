@@ -1,0 +1,203 @@
+.news-announcements{
+font: 13px/24px "Roboto", sans-serif;
+font-weight: 400;
+color: #666;
+box-sizing: border-box;
+font-style: inherit;
+vertical-align: baseline;
+padding: 0;
+border: 0;
+outline: 0;
+background: transparent;
+font-family: 'Ubuntu', sans-serif!important;
+width: 50%;
+margin: 0 auto;
+}
+.news-announcements-inner{
+
+font: 13px/24px "Roboto", sans-serif;
+font-weight: 400;
+color: #666;
+box-sizing: border-box;
+font-style: inherit;
+vertical-align: baseline;
+border: 0;
+outline: 0;
+background: transparent;
+font-family: 'Ubuntu', sans-serif!important;
+margin: 0 auto;
+padding: 50px 0;
+max-width: 1920px;
+display: flex;
+justify-content: space-between;
+width: 90%;
+flex-direction: column;
+}
+.baslik{
+
+    font: 13px/24px "Roboto", sans-serif;
+    box-sizing: border-box;
+    text-transform: none;
+    line-height: 1.1;
+    font-style: inherit;
+    vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif!important;
+    font-weight: 700;
+    color: #212327;
+    position: relative;
+    max-width: 1920px;
+    width: 90%;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    margin-left: 0;
+    margin-bottom: 45px;
+}
+.news{
+
+    font: 13px/24px "Roboto", sans-serif;
+    font-weight: 400;
+    color: #666;
+    box-sizing: border-box;
+    font-style: inherit;
+    vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.news-top{
+
+    font: 13px/24px "Roboto", sans-serif;
+    font-weight: 400;
+    color: #666;
+    box-sizing: border-box;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif!important;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+}
+.news-type{
+
+    font: 13px/24px "Roboto", sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: #3e3e3e;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Ubuntu', sans-serif!important;
+    position: relative;
+    background: #fff;
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 14px;
+    box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.22);
+    width: 100%;
+    grid-column: 1 / -1;
+    height: 300px;
+}
+.news-face{
+
+    font: 13px/24px "Roboto", sans-serif;
+    cursor: pointer;
+    color: #3e3e3e;
+    font-weight: 500;
+    text-align: center;
+    line-height: 14px;
+    box-sizing: border-box;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif!important;
+    height: 100% !important;
+    position: relative;
+    overflow: hidden;
+}
+.news-title{
+    font: 13px/24px "Roboto", sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 14px;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Ubuntu', sans-serif!important;
+    position: absolute;
+    z-index: 9;
+    background: #000000ab;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 75px !important;
+    display: flex;
+    padding: 2px 5px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.news-bottom{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --uk-breakpoint-s: 640px;
+    --uk-breakpoint-m: 960px;
+    --uk-breakpoint-l: 1200px;
+    --uk-breakpoint-xl: 1600px;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --fc-daygrid-event-dot-width: 8px;
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font: 13px/24px "Roboto", sans-serif;
+    font-weight: 400;
+    color: #666;
+    box-sizing: border-box;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif!important;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+}

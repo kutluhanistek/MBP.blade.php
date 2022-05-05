@@ -1,0 +1,96 @@
+
+input{
+    width: 220px;
+    padding: 8px 10px;
+    margin: 12px;
+    border-radius: 100px;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+input:focus{
+    background-color: rgb(168, 182, 182);
+}
+
+#login  {
+text-align: center;
+color:#666;
+font-size: 20px;
+margin-bottom: -40px;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+form{
+text-align: center;
+margin-top: 60px;
+
+}
+.ust_menu{
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: rgb(129, 15, 15);
+    margin-top: -10px;
+    padding: 10px;
+}
+.btn{
+    background-color: darkgreen;
+    color:white;
+    font-size: 20px;
+    width: 115px;
+    margin: 0;
+    padding: 2px;
+    font-style:unset;
+    border-radius: 100px;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.btn:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    animation: rotate 0.7s ease-in-out both;
+}
+.btn:before,
+.btn:after{
+    transform: translate(100%, -25%) translate3d(0, 0, 0);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.btn:hover:before,
+.btn:hover:after{
+    opacity: 0.15;
+}
+.btn:hover:before{ transform: translate3d(50%, 0, 0) scale(0.9); }
+.btn:hover:after{ transform: translate(50%, 0) scale(1.1); }
+@keyframes rotate{
+    0%{ transform: rotate(0deg); }
+    25%{ transform: rotate(3deg); }
+    50%{ transform: rotate(-3deg); }
+    75%{ transform: rotate(1deg); }
+    100%{ transform: rotate(0deg); }
+}
+.b{
+    background-color: darkblue;
+}
+.custom-select{
+
+
+}
+.secim{
+    margin-top: 10px;
+    width: 245px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.a{
+    margin-top: 0px;
+}
